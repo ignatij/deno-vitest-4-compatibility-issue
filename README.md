@@ -5,7 +5,7 @@ Running Vitest’s `threads` pool through Deno’s Node compatibility layer curr
 ### Reproduction
 - Deno 2.6.5
 - Vitest 4.0.17 (`pool: "threads"` in `vitest.config.ts`)
-- Run `deno task test` (or `deno run -A npm:vitest --pool=threads`)
+- Run `deno run --allow-all npm:vitest run`
 
 ### Error
 ```
